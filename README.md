@@ -1,6 +1,6 @@
 # DynamoDB Read-Only MCP
 
-[![npm version](https://badge.fury.io/js/dynamo-readonly-mcp.svg)](https://badge.fury.io/js/dynamo-readonly-mcp)
+[![npm version](https://badge.fury.io/js/dynamo-readonly-mcp.svg)](https://badge.fury.io/js/dynamo-readonly-mcp) [![smithery badge](https://smithery.ai/badge/@jjikky/dynamo-readonly-mcp)](https://smithery.ai/server/@jjikky/dynamo-readonly-mcp)
 
 A server that utilizes the Model Context Protocol (MCP) to query AWS DynamoDB databases. This server allows LLMs like Claude to query DynamoDB data through natural language requests.
 
@@ -26,6 +26,14 @@ This MCP server provides the following features:
 ## Installation and Execution
 
 You can run it without installation using the `Run with NPX` method below.
+
+### Installing via Smithery
+
+To install DynamoDB Read-Only Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@jjikky/dynamo-readonly-mcp):
+
+```bash
+npx -y @smithery/cli install @jjikky/dynamo-readonly-mcp --client claude
+```
 
 ### Installation
 
