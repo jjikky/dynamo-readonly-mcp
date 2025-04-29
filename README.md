@@ -4,6 +4,10 @@
 
 A server that utilizes the Model Context Protocol (MCP) to query AWS DynamoDB databases. This server allows LLMs like Claude to query DynamoDB data through natural language requests.
 
+<a href="https://glama.ai/mcp/servers/@jjikky/dynamo-readonly-mcp">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@jjikky/dynamo-readonly-mcp/badge" alt="DynamoDB Read-Only MCP server" />
+</a>
+
 ## Features
 
 This MCP server provides the following features:
@@ -14,7 +18,7 @@ This MCP server provides the following features:
 - **Data Query Tools**:
   - `scan-table`: Scan all or part of a table's data
   - `query-table`: Search for data that matches specific conditions in a table
-  - `paginate-query-table` : Retrieve data across multiple pages that matches specific conditions
+  - `paginate-query-table`: Retrieve data across multiple pages that matches specific conditions
   - `get-item`: Retrieve an item with a specific key
   - `count-items`: Calculate the number of items in a table
 - **Resources**:
