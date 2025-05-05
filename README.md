@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/jjikky-dynamo-readonly-mcp-badge.png)](https://mseep.ai/app/jjikky-dynamo-readonly-mcp)
+
 # DynamoDB Read-Only MCP
 
 [![npm version](https://badge.fury.io/js/dynamo-readonly-mcp.svg)](https://badge.fury.io/js/dynamo-readonly-mcp) [![smithery badge](https://smithery.ai/badge/@jjikky/dynamo-readonly-mcp)](https://smithery.ai/server/@jjikky/dynamo-readonly-mcp)
